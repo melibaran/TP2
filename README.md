@@ -1,1 +1,1 @@
-# TP2
+# Programming workshop classes 
