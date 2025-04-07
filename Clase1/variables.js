@@ -32,11 +32,6 @@ let verdadero = true;
 let indefinido = undefined;
 let nulo = null;
 let array = [1, 2, "string", [2, 3, 4], true]
-//el tipo object tiene clave valor
-let object = {
-    nombre:"Matias",
-    edad:13
-}
 
 console.log(typeof texto);
 console.log(typeof numero);
@@ -45,10 +40,18 @@ console.log(typeof verdadero);
 console.log(typeof indefinido);
 console.log(typeof nulo);
 
+//el tipo object tiene clave valor
+let object = {
+    nombre:"Matias",
+    edad:13
+}
+
+
 //para acceder a un indice de un array
 console.log( array[2]);
 
 //Para acceder al valor de un objeto:
+console.log("Objeto:");
 console.log("Nombre: ", object["nombre"]);
 console.log("Edad: ", object.edad);
 console.log(object);
@@ -60,6 +63,10 @@ console.log(object);
 //puedo agregar una variables del Objeto:
 object.altura = 10.7;
 console.log(object);
+//y corregir/actualizar tambien
+object.altura = 34;
+console.log(object);
+
 
 
 
